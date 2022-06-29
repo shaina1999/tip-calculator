@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <img src="/images/logo.svg" alt="logo" class="logo" />
+      <div class="calc">
+        <div class="calc__left-box">
+          <div class="calc__input-box">
+            <label for="bill">Bill</label>
+            <div class="calc__input calc__input-bill">
+              <img src="/images/icon-dollar.svg" class="calc__input-icon" />
+              <input
+                type="number"
+                class="calc__value-input calc__bill-value border-strong-cyan"
+                placeholder="0"
+              />
+            </div>
+          </div>
+          <div class="calc__input-box">
+            <label for="bill">Select Tip %</label>
+            <div class="calc__select-tip">
+              <input
+                type="number"
+                class="calc__tip-amount"
+                value="5"
+                readonly
+              />
+              <input
+                type="number"
+                class="calc__tip-amount"
+                value="10"
+                readonly
+              />
+              <input
+                type="number"
+                class="calc__tip-amount"
+                value="15"
+                readonly
+              />
+              <input
+                type="number"
+                class="calc__tip-amount"
+                value="20"
+                readonly
+              />
+              <input
+                type="number"
+                class="calc__tip-amount"
+                value="25"
+                readonly
+              />
+              <input
+                type="number"
+                class="calc__custom-tip border-strong-cyan"
+                placeholder="Custom"
+              />
+            </div>
+          </div>
+          <div class="calc__input-box">
+            <label for="bill" class="calc__label-with-error"
+              >Number of People
+              <span class="calc__error hidden">Can't be zero</span>
+            </label>
+            <div class="calc__input calc__input-number-of-people">
+              <img src="/images/icon-person.svg" class="calc__input-icon" />
+              <input
+                type="number"
+                class="calc__value-input calc__number-of-people"
+                placeholder="0"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="calc__right-box">
+          <div class="calc__total calc__tip-total-amount">
+            <p class="calc__amount-label">
+              Tip Amount<br />
+              <span> / Person</span>
+            </p>
+            <p class="calc__amount">
+              $<span class="calc__total-tip">0.00</span>
+            </p>
+          </div>
+          <div class="calc__total calc__total-amount">
+            <p class="calc__amount-label">
+              Total<br />
+              <span> / Person</span>
+            </p>
+            <p class="calc__amount">
+              $<span class="calc__total-amount-per-people">0.00</span>
+            </p>
+          </div>
+          <button class="calc__reset-button">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
