@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Tip calculator app](https://shainadeguzman.github.io/tip-calculator/)
 
 ## My process
 
@@ -56,6 +55,6 @@ After i finish this project, i notice that i still need to perfect my style of c
 
 ## Author
 
-- Website - [Shaina De Guzman](deguzman.netlify.app)
+- Website - [Shaina De Guzman](https://deguzman.netlify.app/)
 
 Thanks for checking out this project.
