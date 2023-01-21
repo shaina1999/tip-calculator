@@ -55,6 +55,6 @@ After i finish this project, i notice that i still need to perfect my style of c
 
 ## Author
 
-- Website - [Shaina De Guzman](https://deguzman.netlify.app/)
+- Website - [Shaina De Guzman](https://shainadeguzman.netlify.app/)
 
 Thanks for checking out this project.
