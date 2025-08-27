@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Tip calculator app](https://shainadeguzman.github.io/tip-calculator/)
+- Live Site URL: [Tip calculator app](https://shaina1999.github.io/tip-calculator/)
 
 ## My process
 
